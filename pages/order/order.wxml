@@ -1,0 +1,24 @@
+<view class="box">
+	<van-tabs active="{{active}}" bind:change="onChange" color="#816eff" title-active-color="#816eff">
+		<van-tab title="全部">
+			内容 1
+
+		</van-tab>
+		<van-tab title="待支付">
+			内容 2
+		</van-tab>
+		<van-tab title="未派遣">
+			内容 3
+		</van-tab>
+		<van-tab title="已派遣">
+			内容 4
+		</van-tab>
+		<van-tab title="已结束">
+			内容 4
+		</van-tab>
+		<van-tab title="已评价">
+			内容 4
+		</van-tab>
+	</van-tabs>
+
+</view>

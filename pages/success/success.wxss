@@ -1,0 +1,25 @@
+.box {
+  width: 100%;
+  height: 100%;
+}
+.van-icon:before {
+  color: #fff;
+}
+.bgc {
+  background-color: #816eff !important;
+}
+.title {
+  color: #fff !important;
+}
+.content {
+  margin: 300rpx auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+image  {
+  margin: 0 auto;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}

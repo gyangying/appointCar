@@ -1,0 +1,6 @@
+<van-cell-group>
+  <van-cell title="联系邮箱" value="{{email}}" value-class="name"></van-cell>
+  <van-cell title="客服电话" value="{{phone}}"></van-cell>
+  <van-cell title="客服QQ" value="{{qq}}"></van-cell>
+  <van-cell title="微信" value="{{wx}}"></van-cell>
+</van-cell-group>

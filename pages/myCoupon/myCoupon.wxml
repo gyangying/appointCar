@@ -1,0 +1,10 @@
+<view class="box">
+  <van-tabs active="{{active}}"  color="#816eff" title-active-color="#816eff" bind:change="onChange">
+    <van-tab title="未使用">
+      <view class="unUse mask">111</view>
+    </van-tab>
+    <van-tab title="已过期">
+      <view class="out">222</view>
+    </van-tab>  
+  </van-tabs>
+</view>

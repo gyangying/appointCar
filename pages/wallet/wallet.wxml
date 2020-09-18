@@ -1,0 +1,52 @@
+<view class="box">
+	<van-tabs active="{{active}}" bind:change="onChange" color="#816eff" title-active-color="#816eff">
+		<!-- 积分记录 -->
+		<van-tab title="积分">
+			<view class="head">
+				<view bindtap="exchangeRecord">兑换记录</view>
+				<view>{{integral}}</view>
+				<view>积分余额</view>
+				<button bindtap="exchange">兑换</button>
+			</view>
+
+			<view wx:for="{{intergralList}}" wx:key="index">
+				<view>积分列表</view>
+				<view>
+					<view class="list">
+						<image class="pic" src="{{}}"></image>
+						<view class="infos">
+							<view class="user">
+								<view>1</view>
+								<view>2</view>
+							</view>
+							<view class="num">
+								<view>3</view>
+								<view>4</view>
+							</view>
+						</view>
+					</view>
+				</view>
+
+			</view>
+		</van-tab>
+		<!-- 预充金额 -->
+		<van-tab title="预充金额">
+			<view class="headC">
+				<view bindtap="buyRecord">消费记录</view>
+				<view>{{rest}}</view>
+				<view>预留余额</view>
+			</view>
+			<view>
+				<view>充值列表</view>
+				<view class="recharge">
+					<block wx:for="{{}}" wx:key="index">
+						<view class="time">{{}}</view>
+						<view class="money">充值金额{{}}</view>
+					</block>
+				</view>
+			</view>
+
+
+		</van-tab>
+	</van-tabs>
+</view>

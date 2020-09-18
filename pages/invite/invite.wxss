@@ -1,0 +1,17 @@
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.myIcon {
+  display: flex;
+}
+
+.pics {
+  flex: 1;
+}
+
+.icon {
+  width: 50rpx;
+  height: 50rpx;
+}

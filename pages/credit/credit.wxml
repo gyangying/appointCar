@@ -1,0 +1,12 @@
+<view class="box">
+  
+
+	<van-tabs active="{{active}}" color="#816eff" title-active-color="#816eff" bind:change="onChange">
+		<van-tab title="未付款">
+			<view class="unPay">111</view>
+		</van-tab>
+		<van-tab title="已付款">
+			<view class="payed">222</view>
+		</van-tab>
+	</van-tabs>
+</view>

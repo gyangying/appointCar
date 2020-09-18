@@ -1,0 +1,24 @@
+<view class="box">
+	<view>
+		<text>车牌号：</text>
+		<input bindinput="inputCar" value="{{carVal}}" placeholder="请输入车牌号"></input>
+	</view>
+
+	<view>
+		<text>车牌颜色：</text>
+		<view wx:for="{{btn}}" wx:key="index">
+			<button class="{{currentId == index?'checked':''}}" bind:tap="btnClick" data-id="{{item.id}}">{{item.name}}</button>
+		</view>
+	</view>
+	<text>验证码：</text>
+	<input bindinput="inputYan" value="{{yanVal}}" placeholder="验证码"></input>
+	<image src="{{pic}}"></image>
+	<view>
+		<button>查询</button>
+	</view>
+
+  <view>
+  
+  </view>
+
+</view>

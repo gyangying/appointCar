@@ -1,0 +1,9 @@
+<!-- 发票详情 -->
+<view class="box">
+
+
+<view class="footer">
+  <button class="btn">重发发票</button>
+</view>
+
+</view>

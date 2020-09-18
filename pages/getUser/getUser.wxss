@@ -1,0 +1,12 @@
+.box {
+  margin: 300rpx auto;
+  width: 70%;
+  height: 200rpx;
+  text-align: center;
+  /* border: 1rpx solid #999; */
+}
+.img {
+  margin: 0rpx auto;
+  width: 392rpx;
+  height: 78rpx;
+}

@@ -1,0 +1,20 @@
+<view class="box">
+	<view class="left">
+		<block wx:for="{{type}}" wx:key="index">
+			<view class="{{i == item.id?'active': ''}}" data-idx="{{item.id}}" bind:tap="turnRight">{{item.name}}</view>
+		</block>
+	</view>
+	<view class="right">
+		<block wx:for="{{carNum}}" wx:key="index">
+			<view>
+				<view>{{item.name}}</view>
+				<view style="display:flex;flex-direction:row;">
+					<image class="pic" src="{{item.img}}"></image>
+					<view>￥{{item.price}}</view>
+				</view>
+			</view>
+		</block>
+	</view>
+
+	<view bind:tap="explain">车型空间说明？</view>
+</view>

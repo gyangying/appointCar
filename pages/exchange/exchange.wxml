@@ -1,0 +1,9 @@
+<view class="box">
+	<view class="tilte">
+		<view>
+			<view>兑换{{num}}分</view>
+			<view>{{date}}</view>
+		</view>
+		<view class="status">{{status}}</view>
+	</view>
+</view>

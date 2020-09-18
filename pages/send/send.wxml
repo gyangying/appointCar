@@ -1,0 +1,25 @@
+<view class="box">
+<view></view>
+	<van-tabs active="{{active}}" bind:change="onChange" title-active-color="#816eff" color="#816eff">
+		<!-- 接机 -->
+		<van-tab title="接机">
+			<view>
+
+			</view>
+		</van-tab>
+
+		<!-- 送机 -->
+		<van-tab title="送机">
+			<view>
+
+			</view>
+		</van-tab>
+
+		<!-- 接送 -->
+		<van-tab title="接送">
+			<view>
+
+			</view>
+		</van-tab>
+	</van-tabs>
+</view>

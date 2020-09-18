@@ -1,0 +1,246 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.12.2",
+	"appid": "wxfb458cc9490f795c",
+	"projectname": "appointment",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/service/service",
+					"pathName": "pages/service/service",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/send/send",
+					"pathName": "pages/send/send",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/carType/carType",
+					"pathName": "pages/carType/carType",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/success/success",
+					"pathName": "pages/success/success",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/guide/guide",
+					"pathName": "pages/guide/guide",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/carTeam/carTeam",
+					"pathName": "pages/carTeam/carTeam",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/carSearch/carSearch",
+					"pathName": "pages/carSearch/carSearch",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/order/order",
+					"pathName": "pages/order/order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/news/news",
+					"pathName": "pages/news/news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/backNews/backNews",
+					"pathName": "pages/backNews/backNews",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/center/center",
+					"pathName": "pages/center/center",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/invite/invite",
+					"pathName": "pages/invite/invite",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/wallet/wallet",
+					"pathName": "pages/wallet/wallet",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/getMoney/getMoney",
+					"pathName": "pages/getMoney/getMoney",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/exchange/exchange",
+					"pathName": "pages/exchange/exchange",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/getMoney/getMoney",
+					"pathName": "pages/getMoney/getMoney",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/myCoupon/myCoupon",
+					"pathName": "pages/myCoupon/myCoupon",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/credit/credit",
+					"pathName": "pages/credit/credit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/drawBill/drawBill",
+					"pathName": "pages/drawBill/drawBill",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/invoice/invoice",
+					"pathName": "pages/invoice/invoice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "开票历史",
+					"pathName": "pages/invoice/invoice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发票报销",
+					"pathName": "pages/invoice/invoice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发票历史",
+					"pathName": "pages/history/history",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发票详情",
+					"pathName": "pages/invoiceDetail/invoiceDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "旅行社认证",
+					"pathName": "pages/travlePre/travelPre",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "审核结果",
+					"pathName": "pages/result/result",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

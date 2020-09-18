@@ -1,0 +1,6 @@
+<view class="auth">
+  <view class="word">使用小程序需要授权微信个人信息请前往授权</view>
+  <button class="btn" plain="{{true}}" bind:getuserinfo="onGetInfo" open-type="{{openType}}">
+    <slot name="img"></slot>
+  </button>
+</view>

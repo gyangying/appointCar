@@ -1,0 +1,101 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/getUser/getUser",
+    "pages/send/send",
+    "pages/bagCar/bagCar",
+    "pages/travelSend/travelSend",
+    "pages/travelBag/travelBag",
+    "pages/guide/guide",
+    "pages/carTeam/carTeam",
+    "pages/carSearch/carSearch",
+    "pages/order/order",
+    "pages/orderDetail/orderDetail",
+    "pages/news/news",
+    "pages/backNews/backNews",
+    "pages/center/center",
+    "pages/success/success",
+    "pages/appointment/appointment",
+    "pages/flight/fight",
+    "pages/carType/carType",
+    "pages/carSpace/carSpace",
+    "pages/couponList/couponList",
+    "pages/score/score",
+    "pages/invite/invite",
+    "pages/wallet/wallet",
+    "pages/getMoney/getMoney",
+    "pages/exchange/exchange",
+    "pages/buyRecord/buyRecord",
+    "pages/myCoupon/myCoupon",
+    "pages/credit/credit",
+    "pages/billList/billList",
+    "pages/bankCard/bankCard",
+    "pages/invoice/invoice",
+    "pages/drawBill/drawBill",
+    "pages/submit/submit",
+    "pages/history/history",
+    "pages/invoiceDetail/invoiceDetail",
+    "pages/travlePre/travelPre",
+    "pages/myResult/myResult",
+    "pages/star/star",
+    "pages/suggestion/suggestion",
+    "pages/service/service"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "车队预约",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#816eff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./image/1-1.png",
+        "selectedIconPath": "./image/1-2.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "./image/2-1.png",
+        "selectedIconPath": "./image/2-2.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "./image/3-1.png",
+        "selectedIconPath": "./image/3-2.png"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "我的",
+        "iconPath": "./image/4-1.png",
+        "selectedIconPath": "./image/4-2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "./miniprogram_npm/@vant/weapp/button",
+    "van-image": "./miniprogram_npm/@vant/weapp/image/index",
+    "van-popup": "./miniprogram_npm/@vant/weapp/popup/index",
+    "van-cell": "./miniprogram_npm/@vant/weapp/cell/index",
+    "van-cell-group": "./miniprogram_npm/@vant/weapp/cell-group/index",
+    "van-checkbox": "./miniprogram_npm/@vant/weapp/checkbox/index",
+    "van-checkbox-group": "./miniprogram_npm/@vant/weapp/checkbox-group/index",
+    "van-icon": "./miniprogram_npm/@vant/weapp/icon/index",
+    "van-stepper": "./miniprogram_npm/@vant/weapp/stepper/index",
+    "van-field": "./miniprogram_npm/@vant/weapp/field/index",
+    "van-radio": "./miniprogram_npm/@vant/weapp/radio/index",
+    "van-radio-group": "./miniprogram_npm/@vant/weapp/radio-group/index",
+    "van-area": "./miniprogram_npm/@vant/weapp/area/index",
+    "van-tab": "./miniprogram_npm/@vant/weapp/tab/index",
+    "van-tabs": "./miniprogram_npm/@vant/weapp/tabs/index",
+    "van-toast": "./miniprogram_npm/@vant/weapp/toast/index",
+    "van-dialog": "./miniprogram_npm/@vant/weapp/dialog/index",
+    "van-nav-bar": "./miniprogram_npm/@vant/weapp/nav-bar/index",
+    "van-search": "./miniprogram_npm/@vant/weapp/search/index"
+  }
+}

@@ -1,0 +1,11 @@
+<!-- 开票历史 -->
+<view class="box">
+	<block>
+		<van-cell title="{{date}}" border="{{false}}" is-link url="/pages/invoiceDetail/invoiceDetail?id=1" />
+		<van-cell title="电子发票" border="{{false}}" value="{{money}}元" title-class="title" value-class="value" />
+		<view class="status">
+			<view>{{status}}</view>
+			<view bindtap="again" data-id="{{}}">重发发票</view>
+		</view>
+	</block>
+</view>

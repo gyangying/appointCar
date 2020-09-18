@@ -1,0 +1,42 @@
+<view class="box">
+	<!-- 轮播图 -->
+	<view>
+		<swiper autoplay="{{true}}" indicator-dots="{{true}}" interval="2000" circular="{{true}}">
+			<block wx:for="{{banner}}" wx:key="index">
+				<swiper-item>
+					<view class="">
+						<image src="{{item.img}}"></image>
+					</view>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+	<!-- 车辆信息 -->
+	<view>
+		<view class="carInfo">
+			<block wx:for="{{4}}" wx:key="index">
+				<view class="" style="width:50%">1</view>
+			</block>
+		</view>
+	</view>
+
+	<!-- 导游介绍 -->
+	<view>
+		<view>
+			<block wx:for="{{guideList}}" wx:key="index">
+				<view>
+					<image></image>
+					<view>
+					
+					</view>
+				</view>
+			</block>
+		</view>
+	
+	</view>
+
+
+
+
+
+</view>

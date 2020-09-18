@@ -1,0 +1,9 @@
+<view class="box">
+  <van-nav-bar title="支付成功" bind:click-left="goIndex" left-arrow title-class="title" custom-class="bgc" />
+  <view class="content">
+    <image src="{{img}}"></image>
+    <view>订单提交成功！</view>
+    <button bind:tap="seeDetails">查看订单详情</button>
+  </view>
+
+</view>

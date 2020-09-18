@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-user": "/components/user/user"
+  },
+  "navigationBarBackgroundColor": "#816eff",
+  "navigationBarTitleText": "授权",
+  "navigationBarTextStyle": "white"
+}

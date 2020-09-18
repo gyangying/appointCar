@@ -1,0 +1,21 @@
+.box {
+  width: 100%;
+  height: 100%;
+}
+.unUse {
+  width: 100%;
+  height: 200rpx;
+  background-color: plum;
+}
+.out {
+  width: 100%;
+  height: 200rpx;
+  background-color: plum;
+}
+.mask {
+  width: 100%;
+  height: 200rpx;
+  z-index: 999;
+  background-color: #999;
+  /* background: url(https://49du.49du.cc:4956/Applet/resource/image/bgcIndex.png); */
+}

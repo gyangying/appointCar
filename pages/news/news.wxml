@@ -1,0 +1,9 @@
+<view class="box">
+  <view>
+    <block wx:for="{{newsList}}" wx:key="index">
+    
+    </block>
+  
+  </view>
+
+</view>

@@ -1,0 +1,5 @@
+<view class="box">
+	<v-user open-type="getUserInfo" bind:getuserinfo="authorization">
+		<image class="img" slot="img" src="/image/login.png"></image>
+	</v-user>
+</view>

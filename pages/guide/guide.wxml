@@ -1,0 +1,33 @@
+<view class="box">
+	<swiper autoplay="{{true}}" interval="2000" circular="{{true}}">
+		<block wx:for="{{banner}}" wx:key="index">
+			<swiper-item>
+				<image src="{{item.img}}"></image>
+			</swiper-item>
+		</block>
+	</swiper>
+
+	<view class="introduce">
+		<image class="img" src=""></image>
+		<view class="info">
+			<view>
+				<text>{{name}} </text>
+				<text>{{sex}} </text>
+				<text>{{year}} </text>
+				<text>{{work}} </text>
+			</view>
+      <view>讲解次数：{{num}}</view>     
+		</view>
+	</view>
+
+  <view class="footer">
+    <view>￥{{money}}</view>
+    <view bind:tap="phone">电话预约</view>
+  </view>
+
+  <view>
+  
+  </view>
+
+
+</view>

@@ -1,0 +1,6 @@
+@import"../../wxParse//wxParse.wxss";
+
+.box {
+  width: 100%;
+  height: 100%;
+}

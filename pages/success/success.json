@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#816eff",
+  "navigationBarTitleText": "支付成功",
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom"
+}
